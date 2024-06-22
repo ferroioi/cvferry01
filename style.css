@@ -1,0 +1,198 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #acb0b4;
+}
+
+.container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.33fr 1fr;
+    width: 210mm;
+    height: 297;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 7);
+}
+
+.container .kolom1 {
+    padding: 40px 20px;
+    padding-left: 35px;
+    background-color: #d1d1d1;
+    width: 100%;
+    color: #313131;
+}
+
+.container .kolom1 .foto {
+    display: inline-flex;
+    margin-bottom: 5px;
+    margin-left: -15px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 4px solid #2c2b29;
+    background-image: url("ferr.jpg");
+    background-position: center top;
+    background-size: 100%;
+}
+
+.container .kolom1 .kontak-box {
+    margin-top: 10px;
+}
+
+.container .kolom1 .kontak-box>* {
+    width: 100%;
+    display: grid;
+    margin-top: 25px;
+    align-items: center;
+}
+
+
+.container .kolom1 .kemampuan {
+    margin-top: 35px;
+}
+
+.container .kolom1 .kemampuan .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #313131;
+    border-radius: 50px;
+    margin-left: 4px;
+
+}
+
+.container .kolom1 .kemampuan .dot.active {
+    background-color: rgb(187, 184, 29);
+}
+
+.container .kolom2 {
+    background-color: #354e05;
+    padding: 40px 20px;
+    padding-right: 75px;
+    color: #b5b5b4;
+}
+
+.container .kolom2 .nama {
+    font-size: 1.41em;
+    color: #c4bb4a;
+    font-weight: 300;
+}
+
+.container .kolom2 .box {
+    display: inline-block;
+    padding: 2px 20px 2px 20px;
+    margin-left: -20px;
+    margin-top: 35px;
+    border-radius: 10px;
+    background-color: #c4bb4a;
+    color: rgb(16, 17, 17);
+}
+
+.container .kolom2 .ket1 .deskripsi {
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.container .kolom2 .ket2 .deskripsi {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.container .kolom2 .ket2 .deskripsi ul {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.container .kolom2 .ket2 .deskripsi ul::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: -22px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color:#c4bb4a;
+}
+
+.container .kolom2 .ket2 .deskripsi ul li {
+    list-style: none;
+    position: relative;
+}
+
+.container .kolom2 .ket2 .deskripsi ul li::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: -18px;
+    height: 60px;
+    border-left: 2px solid #c4bb4a;
+}
+
+.container .kolom2 .ket2 .deskripsi ul:last-of-type li::before {
+    content: none;
+}
+
+.container .kolom2 .ket2 .deskripsi ul li div:last-of-type {
+    color: #c4bb4a;
+    font-weight: bold;
+}
+
+.container .kolom2 .ket3 .deskripsi {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.container .kolom2 .ket3 .deskripsi ul {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.container .kolom2 .ket3 .deskripsi ul::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: -22px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color:#c4bb4a;
+}
+
+.container .kolom2 .ket3 .deskripsi ul li {
+    list-style: none;
+    position: relative;
+}
+
+.container .kolom2 .ket4 .deskripsi {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.container .kolom2 .ket4 .deskripsi ul {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.container .kolom2 .ket4 .deskripsi ul::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: -22px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color:#c4bb4a;
+}
+
+.container .kolom2 .ket4 .deskripsi ul li {
+    list-style: none;
+    position: relative;
+}
